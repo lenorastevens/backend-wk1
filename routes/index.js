@@ -4,6 +4,6 @@ router.get('/', (req, res) => {
     res.send("Hello, CSE 341 Professional Database Users.");
 });
 
-router.use('/professionalRoutes', require('./professionalRoutes'));
+router.use('/professional', require('./professionalRoutes'));
 
 module.exports = router;
